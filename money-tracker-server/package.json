@@ -1,0 +1,27 @@
+{
+  "name": "money-tracker-server",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.1.0",
+    "nodemon": "^2.0.22",
+    "pino": "^8.14.1",
+    "pino-http": "^8.3.3",
+    "pino-pretty": "^10.0.0"
+  }
+}
